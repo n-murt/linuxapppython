@@ -5,12 +5,14 @@
 import subprocess
 import os
 from pathlib import Path
+import yaml
 
-
-tst = "/tmp/tst"
+data.tst = "/tmp/tst"
 out = "/tmp/out"
 folder1 = "/tmp/folder1"
 
+with open('config.yaml') as file:
+    data = yaml.safe_load(file)
 
 def checkout(cmd, text):
     result = subprocess.run(

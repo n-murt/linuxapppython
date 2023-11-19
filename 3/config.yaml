@@ -1,0 +1,7 @@
+folder_in: /tmp/tst
+folder_out: /tmp/out
+folder_ext1: /tmp/folder1
+folder_ext2: /tmp/folder2
+count: 5
+bs: 1M
+type: 7z
